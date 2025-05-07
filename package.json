@@ -1,0 +1,22 @@
+{
+  "name": "yt-music-desktop",
+  "version": "1.0.0",
+  "description": "YouTube Music Desktop Application",
+  "main": "launcher.js",
+  "scripts": {
+    "start": "electron launcher.js",
+    "start:chrome": "electron chrome-launcher.js",
+    "start:electron": "electron index.js",
+    "build": "electron-builder",
+    "shortcut": "node create-shortcut.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["youtube", "music", "desktop", "electron"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^36.1.0",
+    "electron-builder": "^24.9.1"
+  }
+}
